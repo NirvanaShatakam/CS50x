@@ -1,0 +1,28 @@
+SELECT * FROM bank_accounts WHERE account_number IN
+(SELECT account_number FROM atm_transactions WHERE year = 2024 AND month = 7 AND day = 28 AND atm_location = "Leggett Street" AND transaction_type = "withdraw");
+
++----------------+-----------+---------------+
+| account_number | person_id | creation_year |
++----------------+-----------+---------------+
+| 49610011       | 686048    | 2010          |
+| 26013199       | 514354    | 2012          |
+| 16153065       | 458378    | 2012          |
+| 28296815       | 395717    | 2014          |
+| 25506511       | 396669    | 2014          |
+| 28500762       | 467400    | 2014          |
+| 76054385       | 449774    | 2015          |
+| 81061156       | 438727    | 2018          |
++----------------+-----------+---------------+
+
+
+SELECT * FROM people WHERE license_plate IN
+(SELECT license_plate FROM bakery_security_logs WHERE month = 7 AND day = 28 AND hour = 10 AND minute >= 15 AND minute <= 25)
+AND phone_number IN (SELECT caller FROM phone_calls WHERE year = 2024 AND month = 7 AND day = 28 AND duration <= 60);
++--------+--------+----------------+-----------------+---------------+
+|   id   |  name  |  phone_number  | passport_number | license_plate |
++--------+--------+----------------+-----------------+---------------+
+| 398010 | Sofia  | (130) 555-0289 | 1695452385      | G412CB7       |
+| 514354 | Diana  | (770) 555-1861 | 3592750733      | 322W7JE       |
+| 560886 | Kelsey | (499) 555-9472 | 8294398571      | 0NTHK55       |
+| 686048 | Bruce  | (367) 555-5533 | 5773159633      | 94KL13X       |
++--------+--------+----------------+-----------------+---------------+

@@ -1,0 +1,5 @@
+    If I were to calculate the Audio Aura, I would consider the genre of the artists who are there in their top 100 and I would also consider
+speechiness and tempo along with other things.
+    However, this still would not give a perfect answer as we're attempt to make logical sense of emotions, we can get close but we can never
+be spot on. Every individual is unique in their own right, for example, I listen to uplifting songs with high energy and temp when I am feeling
+not so good, however, spotify would misjudge this as me being happy/ energetic.

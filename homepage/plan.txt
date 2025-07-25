@@ -1,0 +1,22 @@
+At least 4 different html pages (interpage traversal possible for all pages) - DONE
+10 different html tags besides {<html>, <head>, <body>, and <title>} -DONE
+At least one of the features from bootstrap - DONE
+5 CSS selectors, class, or ID which should include at least 5 CSS properties - DONE
+One or more features of JavaScript - DONE
+
+
+PLAN:
+    - index page: Introduction, purpose, mission vision for Baby's Consultancy, links to other homepages
+    - astrology.html
+    - psychology.html
+    - test.html (take input from user and show result)
+    - contact_booking.html
+
+
+    - every page design: add a picture, dark mode
+    - paragraph : font,
+    - question : italic, font
+    - heading : make it large, change color
+    - contact : set inpput conditionals
+    - button design (use bootstrap)
+    - use javascript for creating button click events and showing result

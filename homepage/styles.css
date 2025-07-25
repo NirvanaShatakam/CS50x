@@ -1,0 +1,28 @@
+.page
+{
+   background-color:black;
+   font-family:verdana;
+   color:white;
+}
+
+
+.main_heading
+{
+    color:white; text-align:center;
+}
+
+
+.text
+{
+    color:white; text-align:center;
+}
+
+.quote
+{
+    font-size:large;
+}
+
+.question
+{
+    color:white; text-align:center;
+}

@@ -1,0 +1,34 @@
+HTML tags used:
+    -<h1>
+    -<h2>
+    -<h3>
+    -<p>
+    -<div>
+    -<b>
+    -<i>
+    -<hr>
+    -<br>
+    -<strong>
+    -<dl>
+    -<dt>
+    -<dd>
+
+HTML pages:
+    index.html
+    psych.html
+    astro.html
+    contact.html
+
+CSS Class:
+    .page
+    .main_heading
+    .quote
+    .text
+
+CSS Properties:
+    -background-color
+    -color
+    -text-align
+    -font-family
+    -font-size
+
